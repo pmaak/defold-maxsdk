@@ -8,8 +8,14 @@ repositories {
 dependencies {
   implementation 'com.applovin:applovin-sdk:+'
   implementation 'com.applovin.mediation:google-adapter:+'
+
+  {{#applovin.UnityAdsAdapter}}
   implementation 'com.applovin.mediation:unityads-adapter:+'
+  {{/applovin.UnityAdsAdapter}}
+
+  {{#applovin.YandexAdapter}}
   implementation 'com.applovin.mediation:yandex-adapter:+'
+  {{/applovin.YandexAdapter}}
 
   // // https://dash.applovin.com/documentation/mediation/android/getting-started/integration
   // implementation 'com.applovin:applovin-sdk:11.6.0'
