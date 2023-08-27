@@ -10,3 +10,7 @@ Thumbs.db
 builtins
 debug.keystore
 debug.keystore.pass.txt
+
+/.defold/api
+.defignore
+.vscode/settings.json
